@@ -33,7 +33,7 @@ control.setCommand(new TurnOnCommand(myTv));
 control.pressPowerButton();
 ```
 One of the nice features about the above is we can switch out the invokers very easily, see
-[the tests](./src/test/java/CommandTests.java) for examples of this where we use a Smart Phone instead.
+[the tests](./src/test/java/TvReceiverShould.java) for examples of this where we use a Smart Phone instead.
 
 You might be wondering, what if we wish to perform the inverse (i.e. switching off the TV). The good news is that it is
 very straightforward, all we need to do is change the parameter of `setCommand` to the below:
